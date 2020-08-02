@@ -1,0 +1,34 @@
+/* Features */
+.feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  & .item {
+    width: 270px;
+  }
+  & .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  & p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  & .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+}
+.list-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+.icon-container {
+  height: 120px;
+  padding: 25px 100px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}

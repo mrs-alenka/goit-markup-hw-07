@@ -1,0 +1,13 @@
+/* Стилизация logo */
+.logo {
+  font-family: $font-logo;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-blue {
+  color: $accent-color;
+}
+.logo-black {
+  color: #000000;
+}

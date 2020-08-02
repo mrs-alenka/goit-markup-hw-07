@@ -1,0 +1,31 @@
+/* Examples */
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  & .example {
+    width: 370px;
+    position: relative;
+  }
+  & .example:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  & .title {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    color: $primary-white-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}
+.skills {
+  margin-bottom: 30px;
+}
