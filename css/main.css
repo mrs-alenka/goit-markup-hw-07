@@ -465,6 +465,12 @@ body {
   margin-left: auto;
 }
 
+.icon-envelope,
+.icon-mobile {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .header-contacts .link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -486,17 +492,16 @@ body {
 
 .header-contacts .link:hover, .header-contacts .link:focus {
   color: #2196f3;
+  fill: #2196f3;
   cursor: pointer;
+}
+
+.header-contacts .link .header-contacts .link > .icon-envelope:hover {
+  fill: #2196f3;
 }
 
 .header-contacts .link + .link {
   margin-left: 30px;
-}
-
-.icon-envelope,
-.icon-mobile {
-  color: #757575;
-  margin-right: 10px;
 }
 
 /* Стилизация Footer */
